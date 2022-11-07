@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScopeAndAccessModifiers : MonoBehaviour
+public class ScopesAndAccessModifiers : MonoBehaviour
 {
     public int alpha = 5;
 
     private int beta = 0;
     private int gamma = 5;
 
-    private AnotherClass my OtherClass;
+    private AnotherClass myOtherClass;
 
     void Start()
     {
@@ -28,6 +28,6 @@ public class ScopeAndAccessModifiers : MonoBehaviour
 
     void Update()
     {
-        Debug.log("Alpha is set to: " + alpha);
+        Debug.Log("Alpha is set to: " + alpha);
     }
 }
